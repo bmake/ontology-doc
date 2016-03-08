@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(\w+)/(\w+).rdf$ ttlToRdf.php?ontology=$1&file=$2
