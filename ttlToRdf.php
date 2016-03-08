@@ -11,6 +11,8 @@ header('HTTP/ ' . $response->getStatusCode() .' ' . $response->getReasonPhrase()
 //http_response_code($response->getStatusCode());
 //header('Content-Type: ' . implode( $response->getHeader('Content-Type')));
 header('Content-Type: text/plain; charset=utf-8');
+header('Access-Control-Allow-Origin: *');
+header('Accept-Ranges: bytes');
 
 
 
