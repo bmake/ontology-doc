@@ -1,0 +1,7 @@
+{
+  "name": "bmake/ontology-doc",
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "6.1.1"
+  }
+}
