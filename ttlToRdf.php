@@ -9,7 +9,7 @@ $response = $client->request('GET', 'rdfxml/' . $ttl );
 
 header('HTTP/ ' . $response->getStatusCode() .' ' . $response->getReasonPhrase());
 //http_response_code($response->getStatusCode());
-header('Content-Type: ' . implode( $response->getHeader('Content-Type')));
+//header('Content-Type: ' . implode( $response->getHeader('Content-Type')));
 
 echo $response->getBody();
 
