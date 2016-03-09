@@ -1,5 +1,5 @@
 RewriteEngine on
 RewriteRule ^(\w+)/(\w+).rdf$ ttlToRdf.php?ontology=$1&file=$2
 
-RewriteCond %{HTTP_HOST} ^bmake.th-brandenburg.de
+#RewriteCond %{HTTP_HOST} ^bmake\.th-brandenburg\.de$
 RewriteRule ^itcat/$ http://www.essepuntato.it/lode/owlapi/lang=de/https://bmake.th-brandenburg.de/services/odoc/ITCat/SchemaGraph.rdf [P]

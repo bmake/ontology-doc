@@ -12,7 +12,7 @@ switch(strtolower($ontology)){
 
     case 'edugraph':
         //https://raw.githubusercontent.com/EduGraph/bise-ontology/master/bise_schema.ttl
-        $ttl = 'https://raw.githubusercontent.com/EduGraph/bise-ontology/master/'.$_GET['file'].'.ttl';
+        $ttl = 'https://raw.githubusercontent.com/EduGraph/bise-ontology/master/ontology/'.$_GET['file'].'.ttl';
         break;
 }
 
